@@ -1,9 +1,9 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
+@import url("devicons.css");
 @import url('font-awesome.min.css');
-@import url("http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
-
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,100italic,300italic");
 /*
 	Landed by HTML5 UP
 	html5up.net | @n33co
@@ -584,7 +584,7 @@
 			width: 6em;
 
 			&:before {
-				font-size: 2.25em;
+				font-size: 4.25em;
 			}
 
 			&.alt {
@@ -592,6 +592,42 @@
 			}
 		}
 	}
+
+	/* Icon2 */
+
+		.icon2 {
+			@include icon;
+			border-bottom: none;
+			position: relative;
+
+			> .label {
+				display: none;
+			}
+
+			&.alt {
+				@include line-icon;
+			}
+
+			&.major {
+				background: _palette(accent2);
+				border-radius: 100%;
+				cursor: default;
+				display: inline-block;
+				height: 6em;
+				line-height: 6em;
+				margin: 0 0 _size(element-margin) 0;
+				text-align: center;
+				width: 6em;
+
+				&:before {
+					font-size: 4.25em;
+				}
+
+				&.alt {
+					@include line-icon(_palette(accent2));
+				}
+			}
+		}
 
 /* Image */
 

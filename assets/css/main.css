@@ -1,5 +1,6 @@
+@import url("devicons.css");
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,100italic,300italic");
 /*
 	Landed by HTML5 UP
 	html5up.net | @n33co
@@ -1523,7 +1524,7 @@ body.landing {
   body.landing:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
+    font-family: devicons;
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
@@ -1673,7 +1674,7 @@ textarea {
   .select-wrapper:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
+    font-family: devicons;
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
@@ -1734,7 +1735,7 @@ input[type="radio"] {
     input[type="radio"] + label:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
+      font-family: devicons;
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
@@ -1809,7 +1810,7 @@ input[type="radio"] + label:before {
   .icon:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
+    font-family: devicons;
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
@@ -1820,7 +1821,7 @@ input[type="radio"] + label:before {
     .icon.alt:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
+      font-family: devicons;
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
@@ -1838,17 +1839,68 @@ input[type="radio"] + label:before {
     text-align: center;
     width: 6em; }
     .icon.major:before {
-      font-size: 2.25em; }
+      font-size: 4.25em; }
     .icon.major.alt {
       text-decoration: none; }
       .icon.major.alt:before {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
-        font-family: FontAwesome;
+        font-family: devicons;
         font-style: normal;
         font-weight: normal;
         text-transform: none !important; }
       .icon.major.alt:before {
+        color: #0D3268 !important;
+        text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff; }
+
+/* Icon2 */
+.icon2 {
+  text-decoration: none;
+  border-bottom: none;
+  position: relative; }
+  .icon2:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: devicons;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important; }
+  .icon2 > .label {
+    display: none; }
+  .icon2.alt {
+    text-decoration: none; }
+    .icon2.alt:before {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      font-family: devicons;
+      font-style: normal;
+      font-weight: normal;
+      text-transform: none !important; }
+    .icon2.alt:before {
+      color: #1c1d26 !important;
+      text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff; }
+  .icon2.major {
+    background: #0D3268;
+    border-radius: 100%;
+    cursor: default;
+    display: inline-block;
+    height: 6em;
+    line-height: 6em;
+    margin: 0 0 2em 0;
+    text-align: center;
+    width: 6em; }
+    .icon2.major:before {
+      font-size: 4.25em; }
+    .icon2.major.alt {
+      text-decoration: none; }
+      .icon2.major.alt:before {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        font-family: devicons;
+        font-style: normal;
+        font-weight: normal;
+        text-transform: none !important; }
+      .icon2.major.alt:before {
         color: #0D3268 !important;
         text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff; }
 
@@ -2539,7 +2591,7 @@ body.is-touch #banner {
     #footer .icons .icon.alt:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
+      font-family: devicons;
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
@@ -2778,7 +2830,7 @@ body.is-touch #banner {
       #titleBar .toggle:before {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
-        font-family: FontAwesome;
+        font-family: devicons;
         font-style: normal;
         font-weight: normal;
         text-transform: none !important; }
