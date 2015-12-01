@@ -12,6 +12,27 @@
 
 		-moz-osx-font-smoothing: grayscale;
 		-webkit-font-smoothing: antialiased;
+		font-family: devicons;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: none !important;
+
+	}
+
+}
+
+@mixin icon2($content: false) {
+
+	text-decoration: none;
+
+	&:before {
+
+		@if $content {
+			content: $content;
+		}
+
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
 		font-family: FontAwesome;
 		font-style: normal;
 		font-weight: normal;
@@ -20,6 +41,26 @@
 	}
 
 }
+// @mixin icon($content: false) {
+//
+// 	text-decoration: none;
+//
+// 	&:before {
+//
+// 		@if $content {
+// 			content: $content;
+// 		}
+//
+// 		-moz-osx-font-smoothing: grayscale;
+// 		-webkit-font-smoothing: antialiased;
+// 		font-family: FontAwesome;
+// 		font-style: normal;
+// 		font-weight: normal;
+// 		text-transform: none !important;
+//
+// 	}
+//
+// }
 
 /// Applies padding to an element, taking the current element-margin value into account.
 /// @param {mixed} $tb Top/bottom padding.
