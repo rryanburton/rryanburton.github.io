@@ -1639,7 +1639,7 @@
 					border-top-width: 0.35em !important;
 					bottom: auto !important;
 					left: auto !important;
-					padding: $size-wrapper-pad-tb $size-wrapper-pad-lr ($size-wrapper-pad-tb - _size(element-margin)) $size-wrapper-pad-lr !important;
+					padding: (($size-wrapper-pad-tb) * 0.25) ($size-wrapper-pad-lr) ($size-wrapper-pad-tb - _size(element-margin)) $size-wrapper-pad-lr !important;
 					position: relative;
 					right: auto !important;
 					text-align: center;
@@ -1655,7 +1655,7 @@
 		/* Wrapper */
 
 			.wrapper {
-				padding: $size-wrapper-pad-tb $size-wrapper-pad-lr ($size-wrapper-pad-tb - _size(element-margin)) $size-wrapper-pad-lr;
+				padding: (($size-wrapper-pad-tb) * 0.25) $size-wrapper-pad-lr ($size-wrapper-pad-tb - _size(element-margin)) $size-wrapper-pad-lr;
 			}
 
 		/* Banner */
