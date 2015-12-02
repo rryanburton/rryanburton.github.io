@@ -1237,7 +1237,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
   font-weight: 300;
   line-height: 1em;
-  margin: 0 0 1em 0; }
+  margin: 0.25em 0 1em 0; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
     border: 0; }
@@ -1591,7 +1591,7 @@ section.special, article.special {
 header p {
   color: #ffffff;
   position: relative;
-  margin: 0 0 0.25em 0; }
+  margin: 0 0 1em 0; }
 header h2 + p {
   font-size: 1.25em;
   margin-top: -1em;
