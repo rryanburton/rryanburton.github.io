@@ -1,5 +1,5 @@
 @import url("devicons.css");
-@import url("font-awesome.min.css");
+@import url("font-awesome.min2.css");
 @import url("http://fonts.googleapis.com/css?family=Lato:100,300,100italic,300italic");
 /*
 	Landed by HTML5 UP
@@ -1591,7 +1591,7 @@ section.special, article.special {
 header p {
   color: #ffffff;
   position: relative;
-  margin: 0 0 1.5em 0; }
+  margin: 0 0 0.25em 0; }
 header h2 + p {
   font-size: 1.25em;
   margin-top: -1em;
@@ -1607,7 +1607,7 @@ header h6 + p {
   margin-top: -0.6em;
   line-height: 1.5em; }
 header.major {
-  margin: 0 0 4em 0;
+  margin: 0 0 1em 0;
   position: relative;
   text-align: center; }
   header.major:after {
@@ -1835,7 +1835,7 @@ input[type="radio"] + label:before {
     display: inline-block;
     height: 6em;
     line-height: 6em;
-    margin: 0 0 2em 0;
+    margin: 0 0 1em 0;
     text-align: center;
     width: 6em; }
     .icon.major:before {
@@ -2275,7 +2275,7 @@ input[type="button"],
     opacity: 1; }
   .spotlight.top .content, .spotlight.bottom .content {
     left: 0;
-    padding: 5.1em 0 3.1em 0;
+    padding: 1.5em 0 1em 0;
     width: 100%; }
   .spotlight.top .content {
     border-bottom-width: 0.35em;
@@ -2334,7 +2334,7 @@ body.is-touch .spotlight {
 
 /* Wrapper */
 .wrapper {
-  padding: 6em 0 4em 0; }
+  padding: 0.75em 0 0.5em 0; }
   .wrapper.style2 {
     background: #F59A2C; }
     .wrapper.style2 input[type="text"]:focus,
@@ -2633,14 +2633,14 @@ body.is-touch #banner {
   .spotlight.top .content {
     padding: 3.825em 0 1.825em 0; }
   .spotlight.bottom .content {
-    padding: 3.825em 0 2.95em 0; }
+    padding: 2.25em 0 2.95em 0; }
   .spotlight.left .content, .spotlight.right .content {
     padding: 4.5em 2.5em;
     width: 25em; }
 
   /* Wrapper */
   .wrapper {
-    padding: 4.5em 0 2.5em 0; }
+    padding: 1.125em 0 2.5em 0; }
 
   /* Dropotron */
   .dropotron.level-0 {
