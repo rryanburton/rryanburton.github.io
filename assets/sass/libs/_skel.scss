@@ -323,7 +323,7 @@
 			.row#{$x} { margin: ($r * $multiplier * -1) 0 -1px ($c * $multiplier * -1); }
 
 		// Uniform.
-			.row.uniform#{$x} > * { padding: ($c * $multiplier) 0 0 ($c * $multiplier); }
+			.row.uniform#{$x} > * { padding: ($c * $multiplier * 0.75) 0 0 ($c * $multiplier); }
 			.row.uniform#{$x} { margin: ($c * $multiplier * -1) 0 -1px ($c * $multiplier * -1); }
 
 	}
